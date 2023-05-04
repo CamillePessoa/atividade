@@ -1,0 +1,25 @@
+{
+  "name": "aula14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development nodemon -e yaml,js,json --exec node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.6.0",
+    "ajv-formats": "^2.1.0",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "npm": "^9.6.6",
+    "swagger-ui-express": "^4.6.2",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
